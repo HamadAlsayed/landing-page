@@ -1,0 +1,123 @@
+html, body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 8px;
+}
+
+.header, .hero,
+.information, .reviews,
+.footer, .call-action,
+.image-container, .nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    background-color: #1F2937;
+    min-height: 60px;
+
+}
+
+.nav {
+    margin-right: 50px;
+}
+
+.nav a {
+    color: lightgrey;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-right: auto;
+    margin-left: 50px;
+}
+
+.hero {
+    background-color: #1F2937;
+    padding: 30px;
+    gap: 40px;
+}
+
+.hero img {
+    size: auto 200px;
+    height: 280px;
+    filter: drop-shadow(0 0 6mm #131820);
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    color: white;
+    text-align: left;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.paragraph {
+    color: lightgrey;
+    max-width: 300px;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    padding: 8px;
+    color: white;
+    border-radius: 6px;
+    max-width: 80px;
+    text-align: center;
+}
+
+
+.information {
+    flex-direction: column;
+    background-color: white;
+    margin-top: 26px;
+    gap: 26px;
+}
+
+.information .title {
+    color: black;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.image-container {
+    gap: 30px;
+}
+
+.info-image img {
+    border: 6px solid #3882F6;
+    border-radius: 6px;
+    height: 200px; width: 200px;
+    size: 200px auto;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.call-action {
+    background-color: #3882F6;
+}
+
+.footer {
+    background-color: #1F2937;
+}
