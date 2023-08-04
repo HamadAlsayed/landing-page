@@ -71,7 +71,7 @@ ul {
 }
 
 .hero .paragraph {
-    color: #E5E7EB;
+    color: lightgrey;
     max-width: 300px;
 
 }
@@ -132,12 +132,12 @@ ul {
 .call-action {
     background-color: #3882F6;
     flex-wrap: wrap;
-    max-width: 1000px;
-    width: 400px;
+    max-width: 700px;
+    width: 100%;
     min-width: 300px;
     align-self: center;
     border-radius: 6px;
-    margin: 10px;
+    margin: 30px;
     padding: 20px;
 }
 
@@ -153,6 +153,10 @@ ul {
 
 .call-container .title {
     font-size: 18px;
+}
+
+.call-container .paragraph {
+    color: lightgrey;
 }
 
 
