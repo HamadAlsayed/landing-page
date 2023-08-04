@@ -20,8 +20,7 @@ ul {
 .information, .reviews,
 .footer, .call-action,
 .image-container, .nav,
-.quote, .call-action,
-.call-container{
+.quote, .call-action {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -131,7 +130,29 @@ ul {
 }
 
 .call-action {
-    background-color: white;
+    background-color: #3882F6;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    width: 400px;
+    min-width: 300px;
+    align-self: center;
+    border-radius: 6px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.call-action .sign-up {
+    border: 2px solid white;
+    margin-left: auto;
+    align-self: end;
+}
+
+.call-container {
+    flex-direction: column;
+}
+
+.call-container .title {
+    font-size: 18px;
 }
 
 
